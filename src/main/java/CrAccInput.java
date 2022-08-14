@@ -40,7 +40,9 @@ public class CrAccInput extends EmailConfirm{
         Thread.sleep(2500);
         String currentUrl = driver1.getCurrentUrl();
         System.out.println(currentUrl);
-       // System.out.println(currentUrl);
+        final var URL = currentUrl.toString();
+
+         System.out.println(URL);
     }
 
 
